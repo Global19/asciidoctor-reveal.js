@@ -55,7 +55,7 @@ jobs:
   build_js:
     strategy:
       matrix:
-        os: ubuntu-latest
+        os: [ubuntu-latest]
         node-version: ['12.x', '14.x', '15.x']
         include:
           - os: macos-latest
